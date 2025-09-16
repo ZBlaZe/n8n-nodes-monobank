@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/n8n-nodes-monobank"><img src="https://img.shields.io/npm/v/n8n-nodes-monobank?style=flat-square" alt="npm version"/></a>
-  <a href="https://github.com/zblaze/n8n-nodes-monobank/blob/main/LICENSE"><img src="https://img.shields.io/github/license/zblaze/n8n-nodes-monobank?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ZBlaZe/n8n-nodes-monobank/blob/master/LICENSE"><img src="https://img.shields.io/github/license/zblaze/n8n-nodes-monobank?style=flat-square" alt="License"/></a>
   <a href="https://n8n.io"><img src="https://img.shields.io/badge/n8n-1.108.0+-blueviolet?style=flat-square" alt="n8n version"/></a>
 </p>
 
