@@ -1,7 +1,7 @@
 # n8n-nodes-monobank
 
 <p align="center">
-  <img src="https://api.monobank.ua/docs/img/logo.svg" alt="Monobank Logo" width="200"/>
+  <img src="https://api.monobank.ua/docs/logo.png" alt="Monobank Logo" width="200"/>
   <br>
   <strong>Community node for n8n to integrate with Monobank API</strong>
 </p>
@@ -16,7 +16,7 @@ A community node for [n8n](https://n8n.io) to integrate with the [Monobank API](
 
 ## ✨ Features
 
-- 🏦 **Complete Monobank Integration** - Access all major API endpoints
+- 🏦 **Complete Monobank Integration** - Access all major API endpoints for individuals
 - 🔐 **Secure Authentication** - Built-in credential management
 - 📊 **Rich Data Access** - Get statements, accounts, jars, and currency rates
 - 🚀 **Easy Setup** - Simple installation and configuration
@@ -31,7 +31,7 @@ npm install n8n-nodes-monobank
 
 - **n8n**: Version 1.108.0 or higher
 - **Monobank API Token**: Required for private operations
-  - 🔗 [**Get your API token here**](https://api.monobank.ua/)
+  - 🔗 [**Get your API token here**](https://api.monobank.ua/index.html)
   - Navigate to the personal cabinet and generate your token
 
 ## 🚀 Usage
@@ -40,7 +40,7 @@ npm install n8n-nodes-monobank
 Add the **MonoBank** node to your workflow in n8n.
 
 ### 2️⃣ Configure Credentials
-- **For Private Operations**: Create a "MonoBank API" credential with your token from the [Monobank API cabinet](https://api.monobank.ua/)
+- **For Private Operations**: Create a "MonoBank API" credential with your token from the [Monobank API cabinet](https://api.monobank.ua/index.html)
 - **For Public Operations**: No credentials required (Currency Rates, Bank Sync)
 
 ### 3️⃣ Select Operation
