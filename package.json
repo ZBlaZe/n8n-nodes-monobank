@@ -3,6 +3,7 @@
   "version": "0.8.0",
   "description": "Monobank API node for n8n",
   "keywords": ["n8n-community", "monobank", "node", "ukraine", "banking", "api", "financial"],
+  "repository": { "type": "git", "url": "https://github.com/zblaze/n8n-nodes-monobank.git" },
   "license": "MIT",
   "main": "index.js",
   "files": ["dist"],
