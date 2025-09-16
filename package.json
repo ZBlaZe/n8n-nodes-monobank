@@ -1,15 +1,19 @@
 {
   "name": "n8n-nodes-monobank",
-  "version": "0.1.0",
+  "version": "0.8.0",
   "description": "Monobank API node for n8n",
-  "keywords": ["n8n-community", "monobank", "node"],
+  "keywords": ["n8n-community", "monobank", "node", "ukraine", "banking", "api", "financial"],
+  "repository": { "type": "git", "url": "https://github.com/zblaze/n8n-nodes-monobank.git" },
   "license": "MIT",
   "main": "index.js",
+  "files": ["dist"],
   "scripts": {
     "build": "tsc && copy nodes\\MonoBank\\monobank.svg dist\\nodes\\MonoBank\\monobank.svg && copy credentials\\monobank.svg dist\\credentials\\monobank.svg",
     "dev": "tsc --watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
   "devDependencies": {
     "n8n-workflow": "^1.108.0",
     "n8n-core": "^1.108.0",
@@ -20,7 +24,7 @@
   },
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "nodes": ["nodes/MonoBank/MonoBank.node.ts"],
+    "nodes": ["nodes/MonoBank/MonoBank.node.ts", "nodes/MonoBankTrigger/MonoBankTrigger.node.ts"],
     "credentials": ["credentials/MonoBankApi.credentials.ts"]
   }
 }
