@@ -1,10 +1,11 @@
 {
   "name": "n8n-nodes-monobank",
-  "version": "0.1.0",
+  "version": "0.8.0",
   "description": "Monobank API node for n8n",
-  "keywords": ["n8n-community", "monobank", "node"],
+  "keywords": ["n8n-community", "monobank", "node", "ukraine", "banking", "api", "financial"],
   "license": "MIT",
   "main": "index.js",
+  "files": ["dist"],
   "scripts": {
     "build": "tsc && copy nodes\\MonoBank\\monobank.svg dist\\nodes\\MonoBank\\monobank.svg && copy credentials\\monobank.svg dist\\credentials\\monobank.svg",
     "dev": "tsc --watch"
